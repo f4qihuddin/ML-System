@@ -39,4 +39,7 @@ jobs:
 
       - name: Run mlflow project
         run: |
+          cd Project
+          git init
           mlflow run Project --env-manager=local
+          - name: Initialize Project as git repo
