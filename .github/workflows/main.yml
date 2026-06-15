@@ -39,5 +39,4 @@ jobs:
 
       - name: Run mlflow project
         run: |
-          git init
           mlflow run . --env-manager=local
